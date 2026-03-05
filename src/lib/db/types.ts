@@ -1,0 +1,25 @@
+export interface QueryExecResult {
+  columns: string[];
+  values: unknown[][];
+}
+
+export interface Database {
+  run(sql: string, params?: unknown[]): void;
+  exec(sql: string, params?: unknown[]): QueryExecResult[];
+  export(): Uint8Array;
+  close(): void;
+}
+
+export interface SqlJsStatic {
+  Database: new (data?: ArrayLike<number>) => Database;
+}
+
+export interface InitSqlJsOptions {
+  locateFile?: (file: string) => string;
+}
+
+declare global {
+  interface Window {
+    initSqlJs?: (options?: InitSqlJsOptions) => Promise<SqlJsStatic>;
+  }
+}

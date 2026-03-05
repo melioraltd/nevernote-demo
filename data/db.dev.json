@@ -1,0 +1,89 @@
+{
+  "invitationCodes": [
+    { "code": "WELCOME2025" }
+  ],
+  "users": [
+    {
+      "username": "demo@example.com",
+      "password": "demon123",
+      "displayName": "Demo User",
+      "isAdmin": false
+    },
+    {
+      "username": "admin@example.com",
+      "password": "ademon123",
+      "displayName": "Admin",
+      "isAdmin": true
+    }
+  ],
+  "notes": [
+    {
+      "userIndex": 0,
+      "title": "Project Planning",
+      "content": "<p>Q1 goals and milestones for the product launch.</p>",
+      "categoryName": "Work",
+      "location": "Helsinki, Finland",
+      "noteTime": "2025-03-15T10:00",
+      "isPinned": true,
+      "isArchived": false,
+      "daysAgo": 5
+    },
+    {
+      "userIndex": 0,
+      "title": "Shopping List",
+      "content": "<p>Groceries: milk, eggs, bread, cheese, vegetables.</p>",
+      "categoryName": "Personal",
+      "isPinned": true,
+      "isArchived": false,
+      "daysAgo": 2
+    },
+    {
+      "userIndex": 0,
+      "title": "Meeting Notes - Team Sync",
+      "content": "<p>Discussed roadmap priorities and resource allocation.</p>",
+      "categoryName": "Work",
+      "location": "Conference Room B",
+      "noteTime": "2025-01-20T14:30",
+      "isPinned": false,
+      "isArchived": false,
+      "daysAgo": 1
+    },
+    {
+      "userIndex": 0,
+      "title": "Book Recommendations",
+      "content": "<p>Books to read: Deep Work, Atomic Habits, The Pragmatic Programmer.</p>",
+      "categoryName": "Ideas",
+      "isPinned": false,
+      "isArchived": false,
+      "daysAgo": 3
+    },
+    {
+      "userIndex": 0,
+      "title": "Vacation Ideas",
+      "content": "<p>Potential destinations: Japan, Portugal, New Zealand.</p>",
+      "categoryName": "Personal",
+      "location": "Tokyo, Japan",
+      "isPinned": false,
+      "isArchived": false,
+      "daysAgo": 7
+    },
+    {
+      "userIndex": 0,
+      "title": "Quick Note",
+      "content": "<p>Remember to call the dentist.</p>",
+      "categoryName": null,
+      "isPinned": false,
+      "isArchived": false,
+      "daysAgo": 0
+    },
+    {
+      "userIndex": 0,
+      "title": "Old Tasks",
+      "content": "<p>Completed tasks from last month.</p>",
+      "categoryName": "Archive",
+      "isPinned": false,
+      "isArchived": true,
+      "daysAgo": 30
+    }
+  ]
+}

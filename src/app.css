@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-family-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Stone color palette for dark mode theming */
+  --color-background: var(--color-stone-950);
+  --color-foreground: var(--color-stone-50);
+  --color-muted: var(--color-stone-800);
+  --color-muted-foreground: var(--color-stone-400);
+  --color-border: var(--color-stone-800);
+  --color-input: var(--color-stone-800);
+  --color-ring: var(--color-stone-700);
+  --color-primary: var(--color-stone-50);
+  --color-primary-foreground: var(--color-stone-950);
+  --color-secondary: var(--color-stone-800);
+  --color-secondary-foreground: var(--color-stone-50);
+  --color-accent: var(--color-stone-800);
+  --color-accent-foreground: var(--color-stone-50);
+  --color-destructive: var(--color-red-500);
+  --color-destructive-foreground: var(--color-stone-50);
+  --color-card: var(--color-stone-900);
+  --color-card-foreground: var(--color-stone-50);
+  --color-popover: var(--color-stone-900);
+  --color-popover-foreground: var(--color-stone-50);
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+}
+
+html {
+  color-scheme: dark;
+}
+
+button,
+[role='button'],
+a,
+select,
+summary,
+[type='button'],
+[type='submit'],
+[type='reset'] {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  min-height: 100vh;
+}

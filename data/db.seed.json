@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "name": "Personal", "color": "#3b82f6" },
+    { "name": "Work", "color": "#22c55e" },
+    { "name": "Ideas", "color": "#f59e0b" },
+    { "name": "Important", "color": "#ef4444" },
+    { "name": "Other", "color": "#6b7280" }
+  ]
+}

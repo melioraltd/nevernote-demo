@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__testlab__get_requirement_tree",
+      "mcp__testlab__get_requirement",
+      "Bash(npm run check:*)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:registry.npmjs.org)",
+      "WebFetch(domain:localhost)",
+      "Bash(grep:*)",
+      "Bash(xargs ls:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "testlab"
+  ]
+}

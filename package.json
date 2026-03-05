@@ -1,0 +1,37 @@
+{
+  "name": "nevernote",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@tiptap/core": "^3.20.0",
+    "@tiptap/extension-underline": "^3.20.0",
+    "@tiptap/pm": "^3.20.0",
+    "@tiptap/starter-kit": "^3.20.0",
+    "bcryptjs": "^3.0.3",
+    "bits-ui": "^2.16.3",
+    "clsx": "^2.1.1",
+    "pino": "^10.3.1",
+    "svelte-i18n": "^4.0.1",
+    "tailwind-merge": "^3.5.0",
+    "tailwind-variants": "^3.2.2"
+  },
+  "devDependencies": {
+    "@internationalized/date": "^3.12.0",
+    "@lucide/svelte": "^0.577.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@tailwindcss/vite": "^4.2.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "svelte": "^5.53.7",
+    "svelte-check": "^4.4.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}
