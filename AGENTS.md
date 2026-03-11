@@ -4,7 +4,7 @@ This project implements the Meliora Testlab demo application: Nevernote App.
 
 ## Specification guidelines
 
-Specifications on what the App does are documented and maintained in Testlab ALM via MCP ("testlab").
+Specifications on what the App does are documented in Testlab ALM via MCP ("testlab").
 
 The principle:
 
