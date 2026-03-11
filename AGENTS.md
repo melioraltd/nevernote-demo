@@ -18,10 +18,10 @@ Use "testlab" mcp server to access project with projectKey "NN".
 ### Conventions on the specification
 
 - Use "get_requirement_tree" tool to understand the specification as a whole
-- High-level features to be implemented are in sub-folders under "F - Features". When a developers reference a Feature it most-likely means a Feature in this folder.
 - Requirements in the specification are identified with requirementId, have a descriptive name and detailed HTML-based description as content.
 - A single requirement is a chapter in specification document so even folders may have a description.
 - Requirements may be targeted to milestones for implementation.
+- High-level features to be implemented are in sub-folders under "F - Features". When a developers reference a Feature it most-likely means a Feature in this folder.
 
 ### UI design documentation
 
@@ -45,8 +45,8 @@ Use "testlab" mcp server to access project with projectKey "NN".
 
 ## Workflow
 
-- Always before implementing any new features, use get_requirement_tree tool to inspect the specification as a whole and read, analyze and apply the specification as a developer would
-- Before implementing a feature or working on it, refresh the relevant requirements from ALM as they might have been edited
+- Always, before implementing or planning anything, use get_requirement_tree tool to inspect the specification as a whole and read, analyze and apply the specification as a developer would
+- Before implementing or planning something, refresh the relevant requirements from ALM as they might have been edited
 - Fetch requirement "GL - Glossary and terminology" for domain terminology
 - Follow code conventions for all code
 - Prefer the technology stack and follow technical guidelines documented under "T - Technical" folder
